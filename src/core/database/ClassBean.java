@@ -1,4 +1,4 @@
-package a.database;
+package core.database;
 
 public class ClassBean {
 	private String nsUri;

@@ -1,4 +1,4 @@
-package a.store;
+package core.store;
 
 public class ModelStorageFactory {
 	public ModelStorage getModelStorage() {

@@ -1,4 +1,4 @@
-package a.store;
+package core.store;
 
 import org.eclipse.emf.ecore.EClass;
 import org.eclipse.emf.ecore.EObject;

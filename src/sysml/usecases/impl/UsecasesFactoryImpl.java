@@ -11,7 +11,7 @@ import org.eclipse.emf.ecore.impl.EFactoryImpl;
 
 import org.eclipse.emf.ecore.plugin.EcorePlugin;
 
-import a.store.MyStore;
+import core.store.MyStore;
 import sysml.usecases.*;
 
 /**

@@ -1,9 +1,9 @@
-package a.test;
+package core.test;
 
 import java.util.Map;
 import java.util.Set;
 
-import a.store.MyStore;
+import core.store.MyStore;
 import sysml.blocks.Block;
 import sysml.blocks.BlocksFactory;
 import sysml.blocks.BlocksPackage;

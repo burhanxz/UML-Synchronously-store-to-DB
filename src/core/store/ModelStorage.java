@@ -1,16 +1,16 @@
-package a.store;
+package core.store;
 
 import org.mapdb.DB;
 import org.mapdb.DBMaker;
 import org.mapdb.DB.HashMapMaker;
 
+import core.database.ClassBean;
+import core.database.FeatureBean;
+import core.database.SerializerClassBean;
+import core.database.SerializerFeatureBean;
+
 import org.mapdb.HTreeMap;
 import org.mapdb.Serializer;
-
-import a.database.ClassBean;
-import a.database.FeatureBean;
-import a.database.SerializerClassBean;
-import a.database.SerializerFeatureBean;
 
 public class ModelStorage {
 

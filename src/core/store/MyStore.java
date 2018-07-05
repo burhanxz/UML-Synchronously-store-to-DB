@@ -1,4 +1,4 @@
-package a.store;
+package core.store;
 
 import java.util.HashMap;
 import java.util.List;
