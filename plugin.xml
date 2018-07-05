@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML"
+            class="sysml.SysmlPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/ModelElements"
+            class="sysml.modelelements.ModelelementsPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks"
+            class="sysml.blocks.BlocksPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/PortAndFlows"
+            class="sysml.portandflows.PortandflowsPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/Constraints"
+            class="sysml.constraints.ConstraintsPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/Activities"
+            class="sysml.activities.ActivitiesPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/Allocations"
+            class="sysml.allocations.AllocationsPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements"
+            class="sysml.requirements.RequirementsPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/Interactions"
+            class="sysml.interactions.InteractionsPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/StateMachines"
+            class="sysml.statemachines.StatemachinesPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/papyrus/0.7.0/SysML/UseCases"
+            class="sysml.usecases.UsecasesPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/uml2/5.0.0/UML"
+            class="uml.UmlPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <!-- @generated sysml -->
+      <parser
+            type="uml"
+            class="uml.util.UmlResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/uml2/5.0.0/Types"
+            class="types.TypesPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard"
+            class="standard.StandardPackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <!-- @generated sysml -->
+      <package
+            uri="http://www.eclipse.org/emf/2002/Ecore"
+            class="ecore4m.EcorePackage"
+            genModel="model/sysml.genmodel"/>
+   </extension>
+
+</plugin>
