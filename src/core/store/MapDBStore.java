@@ -28,7 +28,7 @@ public class MapDBStore implements InternalEObject.EStore {
 	HTreeMap<String, String> type;
 
 	HTreeMap<String, FeatureBean> containment;
-
+	
 	public MapDBStore(DB database) {
 		this.db = database;
 		property = db.hashMap("property").keySerializer(new FeatureBeanSerializer())
@@ -421,7 +421,7 @@ public class MapDBStore implements InternalEObject.EStore {
 		}
 
 	}
-
+	//对象销毁时，关闭数据库连接
 	@Override
 	protected void finalize() throws Throwable {
 		try {
