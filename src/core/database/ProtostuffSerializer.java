@@ -10,7 +10,7 @@ import core.util.ProtostuffUtil;
 
 public class ProtostuffSerializer implements Serializer<Object> {
 
-	@Override
+	@Override 
 	public void serialize(DataOutput2 out, Object value) throws IOException {
 		byte[] bytes = ProtostuffUtil.serializer(value);
 		byte[] nameBytes = value.getClass().getName().getBytes();
